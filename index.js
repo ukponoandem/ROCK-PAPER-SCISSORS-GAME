@@ -8,25 +8,25 @@
 
 
  function playGame() {
-            let result = '';
-            let result1 = '';
-            let result2 = '';
-            let computerResult = '';
-        let computerMove = playermove()
-       const gamePlayer = "<img src='raised-fist.webp' alt='Test Image' class='emoji-width'>"
+      let result = '';
+      let result1 = '';
+      let result2 = '';
+      let computerResult = '';
+      let computerMove = playermove()
+      const gamePlayer = "<img src='raised-fist.webp' alt='Test Image' class='emoji-width'>"
 
         if ( gamePlayer  === "<img src='raised-fist.webp' alt='Test Image' class='emoji-width'>"){
         if (computerMove === "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"){
-            result =  'You Ties' 
-            computerResult =   'Computer Ties..'
+            result = 'You Won..';
+            computerResult = 'Computer Lose..';
              
         }else if ( computerMove  === "<img src='270b.png' alt='Test Image' class='emoji-width'>"){
             result2 = 'You Lose' ;
             computerResult =  'Computer Won..';
         
         }else if (computerMove  === "<img src='raised-fist.webp' alt='Test Image' class='emoji-width'>") {
-            result1 = 'You Won..' ;
-            computerResult = 'Computer Lose..';
+            result1 = 'You Ties' ;
+            computerResult = 'Computer Ties..'
         }
         }
         
@@ -55,12 +55,12 @@
 }
 
   function playGames() {
-            let result = '';
-            let result1 = '';
-            let result2 = '';
-            let computerResult = ''
-        let computerMove = playermove()
-        const gamePlayers = "<img src='270b.png' alt='Test Image' class='emoji-width'>"
+      let result = '';
+      let result1 = '';
+      let result2 = '';
+      let computerResult = ''
+      let computerMove = playermove()
+      const gamePlayers = "<img src='270b.png' alt='Test Image' class='emoji-width'>"
         
         
         if  (gamePlayers ===  "<img src='270b.png' alt='Test Image' class='emoji-width'>"){
@@ -104,12 +104,12 @@
 
   function playGamees() {
            
-            let result = '';
-            let result1 = '';
-            let result2 = '';
-            let computerResult = ''
-        let computerMove = playermove()
-        const gamePlayeres = "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"
+      let result = '';
+      let result1 = '';
+      let result2 = '';
+      let computerResult = ''
+      let computerMove = playermove()
+      const gamePlayeres = "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"
         
         
         if (gamePlayeres ===  "<img src='1342-victory-hand.png' alt='Test Image'       class='emoji-width'>"){
@@ -153,7 +153,7 @@
 }
 
 
-  function playermove() {
+   function playermove() {
       let computerMove = ''
       const randomNumber = Math.random()       
         if (randomNumber >= 0 && randomNumber <= 1/3) {
