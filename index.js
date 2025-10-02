@@ -5,8 +5,7 @@
   let cumputerScore = 0
   let cumputerScore1 = 0
   let cumputerScore2 = 0
-
-
+  
  function playGame() {
       let result = '';
       let result1 = '';
@@ -102,15 +101,13 @@
             document.getElementById("demo5").innerHTML= `Computer Win:${ cumputerScore}  Computer Lose:${ cumputerScore2}  Computer Ties:${ cumputerScore1}`
 }
 
-  function playGamees() {
-           
+  function playGamees() { 
       let result = '';
       let result1 = '';
       let result2 = '';
       let computerResult = ''
       let computerMove = playermove()
       const gamePlayeres = "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"
-        
         
         if (gamePlayeres ===  "<img src='1342-victory-hand.png' alt='Test Image'       class='emoji-width'>"){
         if  (computerMove === "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"){
