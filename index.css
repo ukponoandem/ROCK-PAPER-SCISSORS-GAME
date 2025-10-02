@@ -1,0 +1,48 @@
+body {
+
+  background-color:black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h1{
+  text-align: center;
+}
+
+.emoji-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  margin-top: 5%;
+}
+.emoji-header img{
+font-size: 90px;
+border: 5px solid white;
+border-radius:50% ;
+padding: 24px 26px;
+
+}
+.demo{
+  display: flex;
+  gap: 20px;
+  margin-left: 40px;
+}
+#demo{
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+}
+#demo1{
+  margin-top: 2%;
+  align-items: center;
+  display: flex;
+}
+.demo3{
+  font-size: 20px;
+}
+.emoji-width{
+  width: 70px;
+}
+.img-width{
+  width: 100px;
+}
