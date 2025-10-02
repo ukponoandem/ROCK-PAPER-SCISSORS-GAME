@@ -5,7 +5,7 @@
   let cumputerScore = 0
   let cumputerScore1 = 0
   let cumputerScore2 = 0
-  
+
  function playGame() {
       let result = '';
       let result1 = '';
@@ -16,15 +16,15 @@
 
         if ( gamePlayer  === "<img src='raised-fist.webp' alt='Test Image' class='emoji-width'>"){
         if (computerMove === "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"){
-            result = 'You Won..';
+            result1 = 'You Won..';
             computerResult = 'Computer Lose..';
              
         }else if ( computerMove  === "<img src='270b.png' alt='Test Image' class='emoji-width'>"){
-            result2 = 'You Lose' ;
+            result = 'You Lose' ;
             computerResult =  'Computer Won..';
         
         }else if (computerMove  === "<img src='raised-fist.webp' alt='Test Image' class='emoji-width'>") {
-            result1 = 'You Ties' ;
+            result2 = 'You Ties' ;
             computerResult = 'Computer Ties..'
         }
         }
@@ -38,7 +38,7 @@
                 number = number + 1;
             }else if (result1 === 'You Won..'){
                 number1 = number1 + 1;
-            }else if (   result2 === 'You Ties'){
+            }else if (result2 === 'You Ties'){
                 number2 = number2 + 1;
             }
       
@@ -109,7 +109,7 @@
       let computerMove = playermove()
       const gamePlayeres = "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"
         
-        if (gamePlayeres ===  "<img src='1342-victory-hand.png' alt='Test Image'       class='emoji-width'>"){
+        if (gamePlayeres ===  "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"){
         if  (computerMove === "<img src='1342-victory-hand.png' alt='Test Image' class='emoji-width'>"){
           result2 = 'You Ties';
             computerResult = 'Computer Ties..'; 
